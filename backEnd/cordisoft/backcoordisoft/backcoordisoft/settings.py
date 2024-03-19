@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'users',
     'areas',
     'bodega',
+    'tipo_rol'
 ]
 
 MIDDLEWARE = [
