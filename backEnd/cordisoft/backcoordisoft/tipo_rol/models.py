@@ -1,6 +1,6 @@
 from django.db import models
 
-class tipo_rol(models.Model):
+class Tipo_rol(models.Model):
     nombre = models.CharField(max_length=255)
     slug = models.SlugField(max_length=255, unique=True)
     descripcion = models.TextField()
